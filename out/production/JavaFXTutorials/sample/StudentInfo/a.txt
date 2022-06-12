@@ -1,0 +1,5 @@
+Student ID: a
+Name: Huy
+Email: huy@gmail
+Age: 20
+Major: it-e6

@@ -1,0 +1,5 @@
+Student ID: b
+Name: b
+Email: b
+Age: 2
+Major: b

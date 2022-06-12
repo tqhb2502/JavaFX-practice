@@ -1,0 +1,19 @@
+.button1 {
+    -fx-font-size: 20px;
+    -fx-background-color: green;
+    -fx-padding: 5 5 5 5;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.button2 {
+    -fx-font-size: 20px;
+    -fx-background-color: skyblue;
+    -fx-padding: 5 5 5 5;
+    -fx-font-weight: bold;
+    -fx-text-fill: red;
+}
+
+.root {
+    -fx-background-color: gray;
+}

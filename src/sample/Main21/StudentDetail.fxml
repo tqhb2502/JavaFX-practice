@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Main21.StudentDetailController">
+   <children>
+      <Label layoutX="238.0" layoutY="31.0" text="Student detail">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="64.0" layoutY="79.0" text="Student ID:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="64.0" layoutY="121.0" text="Name:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="66.0" layoutY="164.0" text="Email:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="64.0" layoutY="200.0" text="Age:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="65.0" layoutY="237.0" text="Major:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="studentIDLabel" layoutX="150.0" layoutY="81.0" prefHeight="17.0" prefWidth="361.0" text="Label">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="nameLabel" layoutX="150.0" layoutY="123.0" prefHeight="20.0" prefWidth="361.0" text="Label">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="emailLabel" layoutX="150.0" layoutY="166.0" prefHeight="17.0" prefWidth="361.0" text="Label">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="ageLabel" layoutX="150.0" layoutY="202.0" prefHeight="17.0" prefWidth="361.0" text="Label">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="majorLabel" layoutX="150.0" layoutY="239.0" prefHeight="17.0" prefWidth="361.0" text="Label">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="269.0" layoutY="305.0" mnemonicParsing="false" onAction="#backButtonHandler" prefHeight="30.0" prefWidth="62.0" text="Back">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

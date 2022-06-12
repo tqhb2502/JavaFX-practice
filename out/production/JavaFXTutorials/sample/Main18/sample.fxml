@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.web.WebView?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Main18.Controller">
+   <top>
+      <HBox prefHeight="28.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button mnemonicParsing="false" onAction="#backButtonHandler" text="&lt;" />
+            <Button mnemonicParsing="false" onAction="#forwardButtonHandler" text="&gt;" />
+            <TextField fx:id="addressBar" onKeyPressed="#addressBarEnterHandler" prefHeight="25.0" prefWidth="549.0" />
+         </children>
+      </HBox>
+   </top>
+   <center>
+      <WebView fx:id="webView" onKeyPressed="#addressBarEnterHandler" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>

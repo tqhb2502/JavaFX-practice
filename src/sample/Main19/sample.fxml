@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="479.0" prefWidth="662.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Main19.Controller">
+   <bottom>
+      <HBox prefHeight="42.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox prefHeight="45.0" prefWidth="180.0">
+               <children>
+                  <Label text="Java">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="JavaTextField" />
+               </children>
+            </VBox>
+            <VBox prefHeight="45.0" prefWidth="189.0">
+               <children>
+                  <Label text="C#">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="CSharpTextField" />
+               </children>
+            </VBox>
+            <VBox prefHeight="45.0" prefWidth="189.0">
+               <children>
+                  <Label text="Python">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="PythonTextField" />
+               </children>
+            </VBox>
+            <Button mnemonicParsing="false" onAction="#submitButtonHandler" prefHeight="45.0" prefWidth="104.0" text="Submit">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+   </bottom>
+   <center>
+      <PieChart fx:id="pieChart" legendSide="LEFT" title="Ti le nguoi su dung Java, C#, Python" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>

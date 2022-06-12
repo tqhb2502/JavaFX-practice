@@ -1,0 +1,5 @@
+Student ID: 20191234
+Name: Minh
+Email: minh@gmail.com
+Age: 16
+Major: CHV

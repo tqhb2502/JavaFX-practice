@@ -1,0 +1,5 @@
+Student ID: 20190093
+Name: Huy
+Email: huy@gmail.com
+Age: 20
+Major: IT-E6
